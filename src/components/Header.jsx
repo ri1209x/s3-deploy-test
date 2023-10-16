@@ -8,7 +8,7 @@ function Header() {
              <div className="relative flex flex-wrap items-center justify-between w-full bg-white group py-4 shrink-0">
                 <div className="h-auto px-1">
                     <button href="#">
-                      <img className="h-16 ml-8 " src="../../public/assets/img/MosaBit.png" alt=''/>
+                      <img className="h-16 ml-8 " src="/assets/img/MosaBit.png" alt=''/>
                     </button>
                 </div>
                 <div className="items-center justify-between hidden gap-12 text-black md:flex" >
