@@ -5,7 +5,7 @@ function App() {
   return (
     <body>
       <section>
-        <div className="relative  z-20 flex mb-20 items-center overflow-hidden bg-white dark:bg-sky-950">
+        <div className="relative h-screen z-20 flex mb-20 items-center overflow-hidden bg-white dark:bg-sky-950">
           <div className="container relative flex px-6 py-16 mx-auto">
               <div className="relative z-20 flex flex-col sm:w-1/3 lg:w-2/5">
                   <span className="w-20 h-2 mb-12 bg-gray-800 dark:bg-white">
@@ -29,7 +29,7 @@ function App() {
                   </div>
               </div>
               <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-                  <img src="../public/assets/img/kvr.jpg" className=" m-auto rounded-lg" alt=''/>
+                <img src="../public/assets/img/kvr.jpg" className=" m-auto rounded-lg" alt=''/>
               </div>
           </div>
         </div>

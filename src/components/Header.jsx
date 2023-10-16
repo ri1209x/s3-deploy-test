@@ -5,10 +5,12 @@
 function Header() {
     return (
         <header className='w-full'>
-             <div className="relative flex flex-wrap items-center justify-between w-full bg-white group py-7 shrink-0">
-                <button href="#">
-                    <img className="h-16 ml-8 " src="../../public/assets/img/MosaBit.png" alt=''/>
-                </button>
+             <div className="relative flex flex-wrap items-center justify-between w-full bg-white group py-4 shrink-0">
+                <div className="h-auto px-1">
+                    <button href="#">
+                      <img className="h-16 ml-8 " src="../../public/assets/img/MosaBit.png" alt=''/>
+                    </button>
+                </div>
                 <div className="items-center justify-between hidden gap-12 text-black md:flex" >
                     <a className="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="javascript:void(0)">Product</a>
                     <a className="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="javascript:void(0)">Features</a>
