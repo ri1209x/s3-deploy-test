@@ -29,7 +29,7 @@ function App() {
                   </div>
               </div>
               <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-                  <img src="../public/assets/img/kvr.jpg" className=" m-auto rounded-lg" alt=''/>
+                  <img src="./img/kvr.jpg" className=" m-auto rounded-lg" alt=''/>
               </div>
           </div>
         </div>
